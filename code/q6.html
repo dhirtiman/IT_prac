@@ -1,29 +1,31 @@
 <html lang="en">
 
-<head>
-    <title>Table</title>
-</head>
+<hmtl>
 
-<body>
-    <input type="button" value="Start" onclick="msg()">
+    <head>
+        <title>Table</title>
+    </head>
 
-</body>
+    <body>
+        <input type="button" value="Start" onclick="msg()">
 
-<script>
+    </body>
 
-    function msg() {
-        const number = parseInt(prompt('Enter an integer'))
-        const range = parseInt(prompt('Enter a range'));
+    <script>
+
+        function msg() {
+            const number = parseInt(prompt('Enter an integer'))
+            const range = parseInt(prompt('Enter a range'));
 
 
-        console.log(`Multiplication Table for ${number}:\n`);
+            console.log(`Multiplication Table for ${number}:\n`);
 
-        for (let i = 1; i <= range; i++) {
-            console.log(`${number} * ${i} = ${number * i}`);
+            for (let i = 1; i <= range; i++) {
+                console.log(`${number} * ${i} = ${number * i}`);
+            }
         }
-    }
 
-</script>
+    </script>
 
 </html>
 

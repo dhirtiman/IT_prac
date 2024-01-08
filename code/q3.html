@@ -1,25 +1,27 @@
-<head>
-    <title>Factorial</title>
-</head>
+<hmtl>
 
-<body>
-    <input type="button" value="Start" onclick="msg()">
-</body>
-<script>
-    function msg() {
-        var f=1,i;
-        n=parseInt(prompt('Enter any number'));
-        for(i=1;i<=n;i++){
-            f=f*i;
+    <head>
+        <title>Factorial</title>
+    </head>
+
+    <body>
+        <input type="button" value="Start" onclick="msg()">
+    </body>
+    <script>
+        function msg() {
+            var f = 1, i;
+            n = parseInt(prompt('Enter any number'));
+            for (i = 1; i <= n; i++) {
+                f = f * i;
+            }
+            alert('The factorial of the number is ' + f);
         }
-        alert('The factorial of the number is '+f);
-    }
 
-</script>
+    </script>
 
-</html>
+    </html>
 
-<!-- output:
+    <!-- output:
     
     Start  
     
