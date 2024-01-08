@@ -1,0 +1,41 @@
+<head>
+    <title>3large</title>
+</head>
+
+<body>
+    <input type="button" value="Start" onclick="msg()">
+</body>
+<script>
+    function msg() {
+        const num1 = parseFloat(prompt('Enter the first no.'));
+        const num2 = parseFloat(prompt('Enter the second no.'));
+        const num3 = parseFloat(prompt('Enter the third no.'));
+
+        alert('The largest number is '+Math.max(num1,num2,num3));
+    }
+
+</script>
+
+
+</html>
+
+<!-- output:
+    
+    Start  
+    
+    localhost says
+    Enter the first no.
+    5
+
+    localhost says
+    Enter the second no.
+    3
+
+    localhost says
+    Enter the third no.
+    6
+
+    localhost says
+    The largest number is 6
+
+ -->

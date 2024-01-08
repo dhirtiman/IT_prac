@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <title>Table</title>
+</head>
+
+<body>
+    <input type="button" value="Start" onclick="msg()">
+
+</body>
+
+<script>
+
+    function msg() {
+        const number = parseInt(prompt('Enter an integer'))
+        const range = parseInt(prompt('Enter a range'));
+
+
+        console.log(`Multiplication Table for ${number}:\n`);
+
+        for (let i = 1; i <= range; i++) {
+            console.log(`${number} * ${i} = ${number * i}`);
+        }
+    }
+
+</script>
+
+</html>
+
+
+<!-- output:
+
+    localhost says
+    Enter an integer
+    2
+    
+    localhost says
+    Enter a range
+    5
+
+    console:
+    
+        Multiplication Table for 2:
+
+        60 2 * 1 = 2
+        60 2 * 2 = 4
+        60 2 * 3 = 6
+        60 2 * 4 = 8
+        60 2 * 5 = 10
+
+
+
+
+ -->
